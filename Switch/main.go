@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	numero := 3
-	fmt.Print("O numero se esceve", numero, "se escreve assim")
+	fmt.Print("O numero se esceve  ", numero, "  se escreve assim =>")
 	switch numero {
 	case 1:
 		fmt.Println("um.")
