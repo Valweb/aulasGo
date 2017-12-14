@@ -1,24 +1,21 @@
 package main
 
+import "fmt"
 
-func main(){
+func main() {
 	numero := 3
-	fmt.print("O numero se esceve", numero,"se escreve assim")
-	switch numero{
+	fmt.Print("O numero se esceve", numero, "se escreve assim")
+	switch numero {
 	case 1:
-		fmt.println("um.")
+		fmt.Println("um.")
 	case 2:
-		se 1:
-		fmt.println("dois.")
+		fmt.Println("dois.")
 	case 3:
-		se 1:
-		fmt.println("tres.")
+		fmt.Println("tres.")
 	case 4:
-		se 1:
-		fmt.println("quatro.")
+		fmt.Println("quatro.")
 	case 5:
-		se 1:
-		fmt.println("cinco .")
-	
+		fmt.Println("cinco.")
+
 	}
 }
