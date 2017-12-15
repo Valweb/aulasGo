@@ -76,7 +76,7 @@ func main() {
 	case "SP":
 		fallthrough
 	case "BH":
-		fmt.Println("Sim, sou de Belo Horizonte!")
+		fmt.Println("Sim, sou de Belo Horizonte, capital de Minas Gerais!")
 	default:
 		fmt.Println("Sou do mundo!")
 	}
