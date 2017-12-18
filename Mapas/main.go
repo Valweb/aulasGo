@@ -25,4 +25,24 @@ func main() {
 	if achou {
 		fmt.Printf("Sim, o que achei foi: %v\n\r", Imovel)
 	}
+
+	apto := model.Imovel{}
+	apto.X = 19
+	apto.Y = 26
+	apto.SetValor(70000)
+
+	cache[apto.Nome] = apto
+
+	fmt.Println("Quantos itens há no cache?", len(cache)) // o len ler o comprimento de strings, mapas, verificar itens no cache, dados...
+
+	for chave, imovel := range cache {
+		fmt.Printf("Chave[%s] = %+v\n\r", chave, imovel)
+	}
+
+	_, achou = cache["Casa Amarela"] // O underline só testa se encontrou o item no array ou não
+	if achou {
+		delete(cache, "Casa Amarela")
+	}
+	fmt.Println("Quantos itens há no cache?", len(cache))
+
 }
