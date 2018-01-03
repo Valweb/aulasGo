@@ -13,13 +13,14 @@ func main() {
 		fmt.Println("[main] Houve um erro ao abrir o arquivo. Erro: ", err.Error())
 		return
 	}
-
+	//Fazer a varredura com Scan
 	// scanner := bufio.NewScanner(arquivo)
 	// for scanner.Scan() {
 	// 	linha := scanner.Text()
 	// 	fmt.Println("O conteúdo da linha é: ", linha)
 	// }
 
+	//ler o arquivo CSV com o leitor
 	leitorCsv := csv.NewReader(arquivo)
 	conteudo, err := leitorCsv.ReadAll()
 	if err != nil {
