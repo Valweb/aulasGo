@@ -14,7 +14,7 @@ func main() {
 	cliente := &http.Client{
 		Timeout: time.Second * 30,
 	}
-	//Servidor de teste
+	//Servidor API para testes
 	resposta, err := cliente.Get("https://jsonplaceholder.typicode.com/posts/1")
 	if err != nil {
 		fmt.Println("[main] Erro ao abrir a pagina do Google Brasil. Erro: ", err.Error())
