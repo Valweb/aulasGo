@@ -14,6 +14,7 @@ func main() {
 	cliente := &http.Client{
 		Timeout: time.Second * 30,
 	}
+
 	//Servidor API para testes
 	resposta, err := cliente.Get("https://jsonplaceholder.typicode.com/posts/1")
 	if err != nil {
