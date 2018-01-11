@@ -19,7 +19,6 @@ func main() {
 	//Rotas
 	fs := http.FileServer(http.Dir("html"))
 	http.Handle("/css/", fs)
-
 	http.HandleFunc("/funcao", manipulador.Funcao)
 	http.HandleFunc("/ola", manipulador.Ola)
 	fmt.Println("Estou escutando, comandante... =D")
