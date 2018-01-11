@@ -1,0 +1,26 @@
+
+h1 {
+    color: rgb(0, 255, 234);
+	text-align: center;
+    font: italic 14px Verdana, Sans-serif;
+    font-size: 35px;
+
+}
+
+h3 {
+    color: rgb(0, 26, 255);
+	text-align: center;
+    font: italic 14px Verdana, Sans-serif;
+    font-size: 40px;
+    border: 10px,10px,10px, 10px;
+
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+    color: rgb(53, 121, 211);
+    text-align: center;
+    
+}
+
